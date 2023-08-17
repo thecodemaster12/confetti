@@ -1,0 +1,41 @@
+*,
+::after,
+::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    height: 100vh;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+}
+
+.title {
+    font-size: 1.8rem;
+    font-weight: bolder;
+    font-family: cursive;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+.confetti_btn {
+    padding: 15px 25px;
+    font-size: 1.2rem;
+    font-family: Tahoma;
+    border: 3px solid #000;
+    border-radius: 50px;
+    letter-spacing: 0.1rem;
+    word-spacing: 0.2rem;
+}
+
+.confetti_btn:hover {
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+}
