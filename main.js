@@ -1,4 +1,4 @@
-const jsConfetti = new JSConfetti()
+ const jsConfetti = new JSConfetti()
 
 const confetti = document.getElementById('confetti');
 
